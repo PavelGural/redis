@@ -15,16 +15,14 @@ install_minikube_linux() {
 install_minikube_macos() {
     echo "Installing Minikube for macOS..."
     brew install minikube
-    echo "Installin Hyperkit..."
-    brew install hyperkit
 }
 
 start_minikube_virtualbox() {
     minikube start --driver=virtualbox
 }
 
-start_minikube_hyperkit() {
-    minikube start --driver=hyperkit
+start_minikube_docker() {
+    minikube start --driver=docker
 }
 
 OS=$(uname -s)
