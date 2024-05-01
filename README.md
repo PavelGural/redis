@@ -44,7 +44,7 @@ bash scripts/deploy_redis_client.sh
 
 ### Set and Get Values from Redis
 
-The required values for the Redis are hardcoded in the [script](./scripts/manage_redis.sh)
+The required values for the Redis are hardcoded in the [script](./scripts/manage_redis.sh#L10-L11)
 
 To set the key-value pair to Redis:
 
