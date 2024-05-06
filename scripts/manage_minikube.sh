@@ -56,7 +56,7 @@ start)
         start_minikube_virtualbox
         ;;
     Darwin)
-        start_minikube_hyperkit
+        start_minikube_docker
         ;;
     *)
         echo "Unsupported operating system for start: $OS"
